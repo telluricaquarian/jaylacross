@@ -42,6 +42,16 @@ export function ProfileSection({ name, bio, imageUrl }: ProfileSectionProps) {
             boxShadow: "0 0 40px 8px rgba(120, 119, 198, 0.1)",
           }}
         />
+
+        {/* Verified badge */}
+        <Image
+          src="/verified-2.png"
+          alt="Verified"
+          width={32}
+          height={32}
+          className="absolute top-0 right-0 translate-x-1/4 -translate-y-1/4 w-8 h-8 pointer-events-none"
+          style={{ filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.25))" }}
+        />
       </motion.div>
 
       <h1 className="mt-5 text-xl font-semibold tracking-tight text-gray-800">{name}</h1>
