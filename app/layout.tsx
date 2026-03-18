@@ -9,8 +9,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Alex Morgan | Designer & Creator",
-  description: "Designer, creator, and digital artist. Find all my links in one place.",
+  title: "jayla.cross | Creator & Financial Educator",
+  description: "Helping ambitious Creators escape financial stress & create opportunities online.",
   generator: "v0.app",
   icons: {
     icon: [

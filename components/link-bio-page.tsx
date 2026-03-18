@@ -4,38 +4,32 @@ import { motion } from "framer-motion"
 import { ProfileSection } from "./profile-section"
 import { LinkCard } from "./link-card"
 import { SocialFooter } from "./social-footer"
-import { Globe, Youtube, Mail, ShoppingBag, FileText } from "lucide-react"
+import { CalendarDays, BookOpen, Layers, GraduationCap } from "lucide-react"
 
 const links = [
   {
-    title: "My Website",
-    description: "AI With Momo",
-    href: "http://aiwithmomo.com/",
-    icon: Globe,
+    title: "Claim Your Spot: 2026 (Q1 intake)",
+    description: "",
+    href: "https://jayla.cross/claim-your-spot",
+    icon: CalendarDays,
   },
   {
-    title: "YouTube Channel",
-    description: "AI Tutorials & More",
-    href: "https://www.youtube.com/@AiWithMomo",
-    icon: Youtube,
+    title: "Create a financial plan (Free workbook)",
+    description: "",
+    href: "https://jayla.cross/financial-plan-workbook",
+    icon: BookOpen,
   },
   {
-    title: "Shop",
-    description: "Merch & Presets",
-    href: "https://shop.example.com",
-    icon: ShoppingBag,
+    title: "Understanding Blockchain: The Future of the digital world (FREE)",
+    description: "",
+    href: "https://jayla.cross/understanding-blockchain",
+    icon: Layers,
   },
   {
-    title: "Newsletter",
-    description: "Join 10k+ readers",
-    href: "https://newsletter.example.com",
-    icon: Mail,
-  },
-  {
-    title: "Free Resources",
-    description: "Templates & Guides",
-    href: "https://resources.example.com",
-    icon: FileText,
+    title: "Free Web3 Education Resources",
+    description: "",
+    href: "https://jayla.cross/web3-resources",
+    icon: GraduationCap,
   },
 ]
 
@@ -207,9 +201,9 @@ export function LinkBioPage() {
       >
         <motion.div variants={itemVariants} className="pt-2">
           <ProfileSection
-            name="AI With Momo"
-            bio="Creator & Developer"
-            imageUrl="/images/544291433-18043960274659947-5766591717842883293-n.jpg"
+            name="jayla.cross"
+            bio="🌸Helping ambitious Creators escape financial stress & create opportunities online"
+            imageUrl="/jayladisplaypicture.webp"
           />
         </motion.div>
 
